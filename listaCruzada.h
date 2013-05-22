@@ -8,6 +8,8 @@ typedef struct{
 
 typedef struct celula{
         DADO dado;
+        int linha;
+        int coluna;
         struct celula* direita;
         struct celula* abaixo;
 }CELULA;
